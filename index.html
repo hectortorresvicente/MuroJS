@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylex.css">
+</head>
+<body>
+    <!-- header>(div{logo}+ul>(li>a[href=enlace$]{Menu $})*5) -->
+    <header>
+        <div>logo</div>
+        <nav>
+            <ul>
+                <li><a href="enlace1" class="menu">Menu 1</a></li>
+                <li><a href="enlace2" class="menu">Menu 2</a></li>
+                <li><a href="enlace3" class="menu">Menu 3</a></li>
+                <li><a href="enlace4" class="menu">Menu 4</a></li>
+                <li><a href="enlace5" class="menu">Menu 5</a></li>
+                <li><a href="enlace6" >Menu 6</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <div><input type="text" id="buscar" value="" name="buscar" placeholder="buscar"></div>
+
+    </div>
+
+    <!-- section>(article>(h2{Article $}+(div>lorem)+(div>img[src=./imgs/gatito$.png])))*2 -->
+
+    <section>
+        <h1 id="titulo">La página de los gatitos</h1>
+        
+        <article>
+            <h2>Article 1</h2>
+            <div>Lorem ipsum, <a href="elnac">dolor </a> sit amet consectetur adipisicing elit. Necessitatibus animi inventore accusantium deserunt. Molestiae eaque esse, explicabo aliquam recusandae adipisci cum at repudiandae vitae vero! Consequatur ipsam quas sapiente ducimus!</div>
+            <div><img src="./imgs/gatitos1.jpg" alt=""></div>
+        </article>
+        <article>
+            <h2>Article 2</h2>
+            <div>Eaque, eius nisi! Porro quod iure <a href="fff">quas quibusdam</a>  perspiciatis veniam praesentium temporibus voluptates cum illum voluptatibus numquam maiores, itaque repellendus mollitia corporis ducimus reprehenderit sit ad nobis. Officiis, laboriosam?</div>
+            <div><img src="./imgs/gatitos2.jpg" alt=""></div>
+        </article>
+    </section>
+
+    
+
+    <!-- section>form>(h2{Comentario}+(div>input[])*3+textarea) -->
+    <section id="resultado">
+    </section>
+
+    <section>
+        <form action="" id="commentForm">
+            <h2>Comentario</h2>
+            <div><input type="text" id="nombre" value="" name="nombre" placeholder="nombre"></div>
+            <div><input type="email" id="mail" name="mail" placeholder="mail" value=""></div>
+            <div><input type="number" id="edad" name="edad" placeholder="edad" value=""></div>
+            <div><textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="comentario"></textarea></div>
+            <div><button id="btnEnviar">Enviar</button></div>
+        </form>
+    </section>
+</body>
+
+<script src="./script.js"></script>
+</html> 

@@ -1,0 +1,19 @@
+body{font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 0; padding: 0; margin-bottom: 150px;}
+
+h1{font-size: 2em;}
+
+header, section{width: 600px; margin: 0 auto;}
+
+header>nav>ul>li{display: inline-block; padding: 0 10px;}
+
+form > div {padding: 10px;}
+form > div > input {padding: 0.5em 1em;background: black; color: white;font-size: 1em;border: 0;}
+form > div > textarea {padding: 0.5em 1em;background: black; color: white;font-size: 1em;border: 0;}
+form > div > button {background: tomato; padding: 0.5em 2em; color:white;font-size: 1em;border: 0; border-radius: 5px;}
+
+.menuamarillo{border: 3px solid orange; }
+.menumovible{border: 2px solid red; position: absolute; }
+
+#resultado{border: 1px solid red; padding: 1em}
+
+.verde{background: green;color:white;padding: 5px;}
